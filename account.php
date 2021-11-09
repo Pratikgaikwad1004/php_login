@@ -64,7 +64,7 @@ session_start();
 
 ?>
     <?php 
-     
+     #
      $user = $_SESSION['username'];
      $sql = "SELECT * FROM `login` WHERE username='$user'";
      $result = mysqli_query($con, $sql);
